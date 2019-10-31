@@ -1,20 +1,21 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <a class="navbar-brand" href="index.html">MindKeeper</a>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <span class="navbar-brand">MindKeeper</span>
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="index.html" id="index">Home</a>
+            <a class="nav-link" href="index.php" id="index">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="list.html" id="list">List</a>
+            <a class="nav-link" href="list.php" id="list">List</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="journal.html" id="journal">Journal</a>
+            <a class="nav-link" href="journal.php" id="journal">Journal</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="account.html" id="account">Account</a>
+            <a class="nav-link" href="account.php" id="account">Account</a>
         </li>
     </ul>
 </nav>
+
 <script>
     var pages = ["index", "list", "journal", "account"];
 
