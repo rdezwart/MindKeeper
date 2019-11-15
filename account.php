@@ -17,8 +17,12 @@
                             <label for="password">Password:</label>
                             <input type="password" class="form-control" id="password">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group">
+                            <button type="submit" name="signIn" id="signIn" class="btn btn-primary">Sign In</button>
+                            <button type="submit" name="signUp" id="signUp" class="btn btn-secondary">Sign Up</button>
+                        </div>
                     </form>
+                    <button type="submit" name="signOut" id="signOut" class="btn btn-dark">Sign Out</button>
                 </div>
             </div>
         </div>
